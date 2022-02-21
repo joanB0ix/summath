@@ -6,7 +6,7 @@ import styles from "./NumericInput.module.scss";
 
 const NumericInput = ({ value, setValue, onEnter }: INumericInput) => {
   const handleKeyDown = (event: any) => {
-    if (event.key === "Enter") {
+    if (event.key === "Enter" && value.length > 0) {
       onEnter();
       setValue(null);
     }
@@ -29,6 +29,7 @@ const NumericInput = ({ value, setValue, onEnter }: INumericInput) => {
         type={"text"}
         inputMode="numeric"
         value={value}
+        autoFocus
         className={styles.input}></input>
     </div>
   );
