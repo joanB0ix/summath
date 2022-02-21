@@ -1,0 +1,19 @@
+#__next,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Press Start 2P", cursive !important;
+  background-color: black;
+  color: #faf4e8;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

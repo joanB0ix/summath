@@ -1,0 +1,17 @@
+@import "styles/variables.scss";
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1fr;
+  place-items: center;
+  .title {
+    font-size: 2em;
+    font-weight: 800;
+  }
+  .game {
+    margin-bottom: 20vh;
+  }
+}

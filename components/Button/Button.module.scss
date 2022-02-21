@@ -1,0 +1,12 @@
+@import "styles/variables.scss";
+
+.button {
+  padding: 2em 3em;
+  border: $whitebone 0.2em solid;
+  padding: 0.4em 0.2em;
+  background-color: transparent;
+  color: $whitebone;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+  font-size: 2em;
+}

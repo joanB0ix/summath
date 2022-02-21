@@ -1,0 +1,19 @@
+@import "styles/variables.scss";
+
+.container {
+  height: fit-content;
+  border: $whitebone 0.4em solid;
+  padding: 0.4em 0.2em;
+  .input {
+    width: 20vw;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: $whitebone;
+    font-size: 1.5em;
+    font-family: inherit;
+    &:focus {
+      outline: none;
+    }
+  }
+}
