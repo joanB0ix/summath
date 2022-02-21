@@ -35,7 +35,7 @@ const GameLayout = ({ checkProblemSolution, setUserSolution, getNewProblem, setI
           onEnter={() => checkIfProblemSolved()}
         />
       </div>
-      <div className={styles.score}>Score:{currentScore}</div>
+      <div className={styles.score}>Score: {currentScore}</div>
       <div>
         <Timer isActive={isGameRunning} endingAction={() => setIsGameRunning(false)} />
       </div>

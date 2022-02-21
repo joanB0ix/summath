@@ -12,7 +12,6 @@ const Timer = ({ isActive, endingAction }: ITimer) => {
   useEffect(() => {
     if (seconds === 0) {
       endingAction();
-      console.log("hiii");
     }
   }, [seconds]);
 

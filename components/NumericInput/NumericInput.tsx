@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 //Interfaces
 import { INumericInput } from "./NumericInput.interface";
 
@@ -29,6 +27,7 @@ const NumericInput = ({ value, setValue, onEnter }: INumericInput) => {
         pattern="[0-9]*"
         onKeyDown={handleKeyDown}
         type={"text"}
+        inputMode="numeric"
         value={value}
         className={styles.input}></input>
     </div>
